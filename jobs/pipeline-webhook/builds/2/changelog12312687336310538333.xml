@@ -1,0 +1,9 @@
+commit a9d64a00a65ed27405ccf727773a310116eb2fca
+tree 04a68eadfdf1360d956f4b062b5f1a114f52e2d8
+parent 17cb28cdccc1275bf66ef3388a5c4ab80d94cf43
+author sawsansalah <sawsan.salaheldin@gmail.com> 2024-12-12 03:15:20 +0200
+committer GitHub <noreply@github.com> 2024-12-12 03:15:20 +0200
+
+    Update Jenkinsfile
+
+:100644 100644 bf24c6d65e26b6b65b6f8474e29f37b8e703f032 637e6a07dfc2cbb18dab6e942e911eb94ecde6d4 M	Jenkinsfile

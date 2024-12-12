@@ -1,0 +1,7 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.git.GitBranchSCMRevision plugin="git@5.6.0">
+  <head class="jenkins.plugins.git.GitBranchSCMHead">
+    <name>f1-add-button</name>
+  </head>
+  <hash>7927f9c197d1b2237b100f62e9a47e0b209ce026</hash>
+</jenkins.plugins.git.GitBranchSCMRevision>

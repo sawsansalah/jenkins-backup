@@ -1,0 +1,50 @@
+Started by user [8mha:////4Da2u+VWCQJerA1MHLtsR+asHzuu4AAqwfvfrfxhFKwtAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL94sTy4sQ8ABqy6n7BAAAA[0msawsan
+[Thu Dec 12 01:14:57 UTC 2024] Starting branch indexing...
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git ls-remote --symref -- https://github.com/sawsansalah/Boardgame.git # timeout=10
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/caches/git-43196ed730573946355959fe0282315a/.git # timeout=10
+Setting origin to https://github.com/sawsansalah/Boardgame.git
+ > git config remote.origin.url https://github.com/sawsansalah/Boardgame.git # timeout=10
+Fetching & pruning origin...
+Listing remote references...
+ > git config --get remote.origin.url # timeout=10
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git ls-remote -h -- https://github.com/sawsansalah/Boardgame.git # timeout=10
+Fetching upstream changes from origin
+ > git config --get remote.origin.url # timeout=10
+ > git fetch --tags --force --progress --prune -- origin +refs/heads/*:refs/remotes/origin/* # timeout=10
+Checking branches...
+  Checking branch prod
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: prod (still at 7927f9c197d1b2237b100f62e9a47e0b209ce026)
+  Checking branch f1-add-button
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: f1-add-button (still at 7927f9c197d1b2237b100f62e9a47e0b209ce026)
+  Checking branch qa
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: qa (still at 7927f9c197d1b2237b100f62e9a47e0b209ce026)
+  Checking branch main
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: main (bd7a9a8375abcb51a506484140aa36b6aad071bd → 8899e0dedae9f634dfaf80048bccd800eb2f7bfc)
+Scheduled build for branch: main
+  Checking branch sawsan
+      ‘Jenkinsfile’ not found
+    Does not meet criteria
+  Checking branch pprod
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: pprod (still at 7927f9c197d1b2237b100f62e9a47e0b209ce026)
+  Checking branch dev
+      ‘Jenkinsfile’ found
+    Met criteria
+Changes detected: dev (e39b74b51ce6067568c59400a6f81ff817506612 → 17cb28cdccc1275bf66ef3388a5c4ab80d94cf43)
+Scheduled build for branch: dev
+Processed 7 branches
+[Thu Dec 12 01:14:59 UTC 2024] Finished branch indexing. Indexing took 1.5 sec
+Finished: SUCCESS
